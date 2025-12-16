@@ -1,6 +1,6 @@
 # Hi, I'm Thamilmaran
 ## About Me
-I am a Biomedical Engineering student with strong hands-on experience in designing and developing smart healthcare and assistive devices using embedded systems, sensors, and IoT technologies. I am passionate about solving real-world medical and patient-care problems through technology. I enjoy working at the device level, integrating hardware with software, and building real-time monitoring systems for healthcare applications.
+Final Year Biomedical Engineering student with strong hands-on experience in designing and developing smart healthcare and assistive devices using embedded systems, sensors, softwares and IoT technologies.Passionate about solving real-world medical and patient-care problems through technology. Sharping skills at the device level, integrating hardware with software, and building real-time monitoring systems for healthcare applications.
 ## Core Technical Skills
 ### 🔹 Embedded Systems & Hardware
 - Raspberry Pi Pico W  
@@ -32,11 +32,11 @@ I am a Biomedical Engineering student with strong hands-on experience in designi
 - Developed a real-time hospital bed monitoring system using ESP32, load cell, and cloud connectivity.
 - Implemented patient presence detection and live bed status visualization using Firebase and a mobile application.
 
-### Smart Egg Incubator using Raspberry Pi Pico W
+### Smart Egg Incubator
 - Designed an automatic temperature and humidity-controlled incubator system.
 - Implemented heating control, LCD display, and real-time monitoring using IoT platforms.
 
-### Prosthetic / Robotic Hand Control System
+### Robotic Hand 
 - Built a robotic hand prototype using motors and embedded controllers.
 - Focused on basic motion control for assistive and rehabilitation applications.
 
@@ -98,4 +98,4 @@ Gained practical exposure to medical equipment handling, hospital workflow, and 
 ---
 
 ## 🚀 Career Objective
-I am seeking internship and entry-level opportunities in biomedical engineering, medical device development, IoT-based healthcare systems, and embedded hardware design, where I can contribute to innovative healthcare solutions while continuously enhancing my technical skills.
+Seeking internship and entry-level opportunities in biomedical engineering, medical device development, IoT-based healthcare systems, and embedded hardware design, where I can contribute to innovative healthcare solutions while continuously enhancing my technical skills.
