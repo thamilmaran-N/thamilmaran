@@ -97,5 +97,5 @@ Gained practical exposure to medical equipment handling, hospital workflow, and 
 
 ---
 
-## 🚀 Career Objective
+## Career Objective
 Seeking internship and entry-level opportunities in biomedical engineering, medical device development, IoT-based healthcare systems, and embedded hardware design, where I can contribute to innovative healthcare solutions while continuously enhancing my technical skills.
