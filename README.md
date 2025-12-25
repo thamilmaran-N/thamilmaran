@@ -9,11 +9,11 @@ Final Year Biomedical Engineering student with strong hands-on experience in des
 - Actuators: Servo Motors, Relays, Buzzers  
 - Displays: I2C LCD  
 ### 🔹 Programming & Firmware
-- Python  
-- MicroPython  
-- C  
-- Embedded C  
-- Arduino Programming  
+- c 
+- Embedded C
+- Micropython 
+- C++
+- Python
 ### 🔹 IoT & Cloud Platforms
 - Firebase Realtime Database  
 - ThingSpeak  
@@ -21,18 +21,28 @@ Final Year Biomedical Engineering student with strong hands-on experience in des
 - Wi-Fi & Bluetooth Communication  
 ### 🔹 Software & Tools
 - Arduino IDE  
-- Thonny  
-- Git & GitHub  
+- Thonny IDE
+- GitHub  
 - Flutter (Basics – UI & Firebase Integration)  
 - MATLAB (Basics)  
 
-## Major Projects
+## Projects
 
-### IoT-Based Patient Bed Monitoring System
-- Developed a real-time hospital bed monitoring system using ESP32, load cell, and cloud connectivity.
-- Implemented patient presence detection and live bed status visualization using Firebase and a mobile application.
+### Patient Bed Monitoring System
+- Components Used: ESP 32, Load Cell, HX711 Amplifier, MPU6050, 3.7v Li-ion Battery, BM-10 Bluetooth module, 3.3v Voltage Regulator, LEDs, Resistors, Slide Switch, 16x2 I2C LCD Display
+- Here the Main Goal of this project is to Detect the patient presence in the Hospital Beds
+- To Reach the Goal of this project we use two specific Units one is Bed unit and Wrist band Unit
+- Bed Unit: Here the Bed unit has ESP 32,Load cell, HX711 Amplifier, MPU6050, 3.7v Li-ion Battery, 16x2 I2C LCD Display
+- Wrist Band Unit: In this unit the compact Design has BM-10 Bluetooth Module, 3.3v Voltage Regulator, 3.7v Li-ion Battery, Slide Switch, LED, Resistor
+- The Load Cell in the Bed Unit is Place Under the Bed to detect the Weight in the bed
+- The Wrist band is a wearable Device to the Patient
+- Now the Bluetooth module in the Wrist band is Connected Via Bluetooth connecticity to the ESP32 in Bed Unit so get the Connectivity Signal Strength
+- If the Signal strength is low and the Patient Weight is not Detected it Indicate the Patient Absence
+- If the Signal Strength is High but the Patient Weight is Not detected or the Signal Strength is low but the Patient Weight is detected its abnormal State
+- If Signal Strength is High but the Patient Weight is detected Patient is Present
+- Then This Data are tranfered to Firebase Data Magement Via ESP32 using Wifi Connectivity for the Future Enhancement
 
-### Smart Egg Incubator
+### Egg Incubator
 - Designed an automatic temperature and humidity-controlled incubator system.
 - Implemented heating control, LCD display, and real-time monitoring using IoT platforms.
 
