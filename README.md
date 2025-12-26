@@ -50,6 +50,7 @@ Final Year Biomedical Engineering student with strong hands-on experience in des
 - If the Signal Strength is High but the Patient Weight is Not detected or the Signal Strength is low but the Patient Weight is detected its abnormal State
 - If Signal Strength is High but the Patient Weight is detected Patient is Present
 - Then This Data are tranfered to Firebase Data Magement Via ESP32 using Wifi Connectivity for the Future Enhancement
+<img width="862" height="564" alt="image" src="https://github.com/user-attachments/assets/cea016a8-a11b-445a-97f2-b5eecbb0f436" />
 
 ### 2.Robotic Hand
 - Components Used: Raspberry Pi Pico W, Servo Motors, 3.7v Battery module, Adaptor, Regulator
@@ -57,6 +58,8 @@ Final Year Biomedical Engineering student with strong hands-on experience in des
 - In This Project we Replicate the function of the Prosthetic Device Bionic Arm
 - Here 5 Motors are connected to the Raspberry Pi Pico W separately and specific motors for each fingers and here the adaptor is used to power the motors and the movement of the motors are done by the PMW logic and they were programmed by using Micropython
 - And the structure of the hand is designed as 3d design using Fusion 360, and they were converted into G-code using Ultimaker Cura for 3d Printing
+<img width="481" height="587" alt="image" src="https://github.com/user-attachments/assets/7ccc7ceb-4cda-496b-a5e6-c3351986f55d" />
+<img width="373" height="367" alt="image" src="https://github.com/user-attachments/assets/2bd320ed-cc1a-473c-9d86-0dc9d61475e9" />
 
 ### 3.Safety Jacket for Industrial workers
 - Components Used: Raspberry Pi Pico W, DHT 22, MQ-135 Gas Sensor, KY-038 Sound Sensor, MPU6050, Buzzer, 3.7v Li-ion Battery
@@ -64,22 +67,27 @@ Final Year Biomedical Engineering student with strong hands-on experience in des
 - Moto of this project is to enhance worker safety by developing a wearable smart jacket that continuously monitors critical environmental and physical parameters in real-time.
 - Every sensors are connected to the Microcontroller and in the jacket there are 2 pouches one for Sensorss and the Microcontroller and the another pouch is for Battery when the jacket is worn by the user then the hook in the jacket connects the battery opower supply to the microcontroller and the datas gathered by the microcontroller is tranfered to the thing speak through Wifi Connectivity which is inbuild in the microcontroller
 - And the jacket is designed with Polyethiline and cotton mesh to protect the components from the Sweat
-   
+<img width="459" height="368" alt="image" src="https://github.com/user-attachments/assets/892a6362-1365-4e72-b098-b6dc4e706681" />
+  
 ### 4.Egg Incubator
 - Components Used: Rapberry Pi Pico W, DHT 22, Relay Module, I2C LCD Display, Incandescent Bulb, Buzzer, Adaptor
 - Tools Used: Thonny IDE, Thing Speak , Blynk
 - This System automatically maintains the required temperature (37°C – 38°C) and humidity (50% to 60% ) for hatching eggs
 - The DHT22 Sensor detects the temperature and humidity of the Egg incubator and when the temperature or the humidity changes the microcontroller on the fan and the Bulb by the help of relay module to maintain the standard temperature.
+<img width="614" height="466" alt="image" src="https://github.com/user-attachments/assets/81057603-d74c-4bc6-9d5c-6bc1716255d7" />
+<img width="612" height="730" alt="image" src="https://github.com/user-attachments/assets/62e36f68-5b25-4866-9c0c-559521422cdb" />
 
 ### 5.Human Assistive Chair
 - Tool Used: Fusion 360
 - Designed a mobility assistive device aimed at improving comfort and support for physically challenged users.
 - Emphasized ergonomic design and practical usability.
+<img width="653" height="684" alt="image" src="https://github.com/user-attachments/assets/28834174-9d87-49c6-9c5b-97e4cedd1a6e" />
 
 ### 6.Eye Wearable Microscope
 - Tools Used: Blender
 - Developed a compact wearable optical device for close-range observation.
 - Targeted biomedical, educational, and diagnostic use cases.
+<img width="854" height="374" alt="image" src="https://github.com/user-attachments/assets/dbf0b116-06f7-4d30-911b-0ec361055cdd" />
 
 ---
 
