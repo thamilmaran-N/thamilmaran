@@ -9,10 +9,9 @@ Final Year Biomedical Engineering student with strong hands-on experience in des
 
 ## Core Technical Skills
 ### 🔹 Embedded Systems & Hardware
-- Raspberry Pi Pico W  
-- ESP32  
-- Sensors: DHT11, DHT22, Load Cell + HX711, MPU6050, EMG (Basics)  
-- Actuators: Servo Motors, Relays, Buzzers  
+- Microcontrollers: Raspberry Pi Pico W, ESP32  
+- Sensors: DHT11, DHT22, Load Cell + HX711, MPU6050, MQ-135 Gas Sensor, KY-038 Sound Sensor
+- Actuators: Servo Motors,BM-10 Bluetooth module, Relays, Buzzers , LEDs, Incandescent Bulb, Adaptors, Regulators
 - Displays: I2C LCD  
 ### 🔹 Programming & Firmware
 - c 
@@ -28,7 +27,8 @@ Final Year Biomedical Engineering student with strong hands-on experience in des
 ### 🔹 Software & Tools
 - Arduino IDE  
 - Thonny IDE
-- GitHub  
+- GitHub
+- MS office
 - Flutter (Basics – UI & Firebase Integration)  
 - MATLAB (Basics)  
 
@@ -36,8 +36,9 @@ Final Year Biomedical Engineering student with strong hands-on experience in des
 
 ## Projects
 
-### Patient Bed Monitoring System
+### 1.Patient Bed Monitoring System
 - Components Used: ESP 32, Load Cell, HX711 Amplifier, MPU6050, 3.7v Li-ion Battery, BM-10 Bluetooth module, 3.3v Voltage Regulator, LEDs, Resistors, Slide Switch, 16x2 I2C LCD Display
+- Tools Used: Thonny IDE, Firebase ,VS Code (for Future enhancement)
 - Here the Main Goal of this project is to Detect the patient presence in the Hospital Beds
 - To Reach the Goal of this project we use two specific Units one is Bed unit and Wrist band Unit
 - Bed Unit: Here the Bed unit has ESP 32,Load cell, HX711 Amplifier, MPU6050, 3.7v Li-ion Battery, 16x2 I2C LCD Display
@@ -50,19 +51,33 @@ Final Year Biomedical Engineering student with strong hands-on experience in des
 - If Signal Strength is High but the Patient Weight is detected Patient is Present
 - Then This Data are tranfered to Firebase Data Magement Via ESP32 using Wifi Connectivity for the Future Enhancement
 
-### Egg Incubator
-- Designed an automatic temperature and humidity-controlled incubator system.
-- Implemented heating control, LCD display, and real-time monitoring using IoT platforms.
+### 2.Robotic Hand
+- Components Used: Raspberry Pi Pico W, Servo Motors, 3.7v Battery module, Adaptor, Regulator
+- Tools Used: Thonny IDE, Arduino IDE(for Testing), Fusion 360 & Ultimaker cure (3d Mold)
+- In This Project we Replicate the function of the Prosthetic Device Bionic Arm
+- Here 5 Motors are connected to the Raspberry Pi Pico W separately and specific motors for each fingers and here the adaptor is used to power the motors and the movement of the motors are done by the PMW logic and they were programmed by using Micropython
+- And the structure of the hand is designed as 3d design using Fusion 360, and they were converted into G-code using Ultimaker Cura for 3d Printing
 
-### Robotic Hand 
-- Built a robotic hand prototype using motors and embedded controllers.
-- Focused on basic motion control for assistive and rehabilitation applications.
+### 3.Safety Jacket for Industrial workers
+- Components Used: Raspberry Pi Pico W, DHT 22, MQ-135 Gas Sensor, KY-038 Sound Sensor, MPU6050, Buzzer, 3.7v Li-ion Battery
+- Tools Used: Thonny IDE, Thing Speak
+- Moto of this project is to enhance worker safety by developing a wearable smart jacket that continuously monitors critical environmental and physical parameters in real-time.
+- Every sensors are connected to the Microcontroller and in the jacket there are 2 pouches one for Sensorss and the Microcontroller and the another pouch is for Battery when the jacket is worn by the user then the hook in the jacket connects the battery opower supply to the microcontroller and the datas gathered by the microcontroller is tranfered to the thing speak through Wifi Connectivity which is inbuild in the microcontroller
+- And the jacket is designed with Polyethiline and cotton mesh to protect the components from the Sweat
+   
+### 4.Egg Incubator
+- Components Used: Rapberry Pi Pico W, DHT 22, Relay Module, I2C LCD Display, Incandescent Bulb, Buzzer, Adaptor
+- Tools Used: Thonny IDE, Thing Speak , Blynk
+- This System automatically maintains the required temperature (37°C – 38°C) and humidity (50% to 60% ) for hatching eggs
+- The DHT22 Sensor detects the temperature and humidity of the Egg incubator and when the temperature or the humidity changes the microcontroller on the fan and the Bulb by the help of relay module to maintain the standard temperature.
 
-### Human Assistive Chair
+### 5.Human Assistive Chair
+- Tool Used: Fusion 360
 - Designed a mobility assistive device aimed at improving comfort and support for physically challenged users.
 - Emphasized ergonomic design and practical usability.
 
-### Eye Wearable Microscope
+### 6.Eye Wearable Microscope
+- Tools Used: Blender
 - Developed a compact wearable optical device for close-range observation.
 - Targeted biomedical, educational, and diagnostic use cases.
 
