@@ -1,6 +1,12 @@
 # Hi, I'm Thamilmaran
+
+---
+
 ## About Me
 Final Year Biomedical Engineering student with strong hands-on experience in designing and developing smart healthcare and assistive devices using embedded systems, sensors, softwares and IoT technologies.Passionate about solving real-world medical and patient-care problems through technology. Sharping skills at the device level, integrating hardware with software, and building real-time monitoring systems for healthcare applications.
+
+---
+
 ## Core Technical Skills
 ### 🔹 Embedded Systems & Hardware
 - Raspberry Pi Pico W  
@@ -25,6 +31,8 @@ Final Year Biomedical Engineering student with strong hands-on experience in des
 - GitHub  
 - Flutter (Basics – UI & Firebase Integration)  
 - MATLAB (Basics)  
+
+---
 
 ## Projects
 
